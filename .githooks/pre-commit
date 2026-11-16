@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bloquea datos y artefactos generados: archivos > 2 MB, SQL generado y extensiones de datos.
+MAX=$((2*1024*1024)); bad=0
+while IFS= read -r f; do
+  [ -f "$f" ] || continue
+  size=$(stat -c%s "$f")
+  if [ "$size" -gt "$MAX" ]; then echo "BLOQUEADO (>2 MB): $f ($((size/1024/1024)) MB)"; bad=1; fi
+  case "$f" in
+    data/mensuales/*/sql/*|data/mensuales/*/raw/*|output/*|*.dump|*.zip|*.rar|*.7z|*.gz|*.xlsx|*.xls)
+      echo "BLOQUEADO (dato/artefacto generado): $f"; bad=1;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=AM)
+[ "$bad" -eq 1 ] && { echo "Los datos no se versionan. Ver tesys-infra/docs/LIMITES_DE_REPOS.md"; exit 1; }
+exit 0

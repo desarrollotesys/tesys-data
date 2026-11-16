@@ -1,0 +1,26 @@
+data/mensuales/*/raw/
+sql/mensuales/
+*.pyc
+__pycache__/
+.env
+venv/
+.DS_Store
+.pytest_cache/
+data/catalogos/pase_legacy_cabi22_26.tsv.gz
+
+# --- Datos y artefactos generados: NUNCA se versionan (ver tesys-infra/docs/LIMITES_DE_REPOS.md) ---
+data/mensuales/**/raw/
+data/mensuales/**/sql/
+data/TMP/
+output/
+backups/
+.history/
+*.xlsx
+*.xls
+*.zip
+*.rar
+*.7z
+*.gz
+*.dump
+*.log
+

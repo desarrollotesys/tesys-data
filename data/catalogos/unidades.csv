@@ -1,0 +1,127 @@
+sistema,codigo,DESCRIPCIO
+M,1,Kilogramos
+M,2,Metros
+M,54,Gruesa
+M,4,m 3
+M,5,Litros
+M,6,1000 KW/h
+M,7,Unidad
+M,8,Par
+M,9,Docena
+M,10,Quilate
+M,11,Millar
+M,14,Gramo
+M,25,paquetes
+M,29,Tonelada
+M,48,Curie
+M,49,Milicurie
+M,50,Microcurie
+M,61,Kg Bruto
+M,63,Gramo
+M,98,No Especifica
+M,99,Indefinido
+T,1,Kg Neto
+T,2,Litro
+T,3,Docena
+T,4,Unidad
+T,5,Tn Neta
+T,6,Km
+T,7,Hl
+T,8,Millas
+T,9,m ²
+T,10,m 3
+T,11,Metro
+T,12,Cien
+T,13,Gruesa
+T,14,Gramos Neto
+T,15,Kg. Resist.
+T,16,Pares
+T,17,Doc. de Pares
+T,18,KW/h
+T,19,Doc. de Cientos
+T,20,Centímetros
+T,21,Cien Kilos
+T,22,Diez Kilos
+T,23,Mil Litros
+T,24,Libras
+T,25,Kilates Libras
+T,26,Galones
+T,27,Cm 3
+T,28,Millón de Unid.
+T,29,Tonelada Mót.
+T,30,Kilos de Activ.
+T,31,Pie 3
+T,32,Cien Pares
+T,33,cm ²
+T,34,Unidad Intern.
+T,35,Yardas
+T,36,Pies ²
+T,37,Pies
+T,38,Millar
+T,39,Pulgadas
+T,40,Gramo Real Act.
+T,41,Miligramos
+T,42,Sección
+T,43,Quintales
+T,44,Pulgada Cuad.
+T,45,Mega
+T,46,Mil cm ²
+T,47,Mililitros
+T,48,Curie
+T,49,Milicurie
+T,50,Microcurie
+T,51,Millón Unid.
+T,52,Onzas
+T,53,Billón Unid.
+T,54,Reans
+T,55,Millón Ac. Real
+T,56,Nomme
+T,57,Strands
+T,58,Kilos Base
+T,59,Kilos Real
+T,60,Kilos Acond.
+T,61,Kg. Bruto
+T,62,Tn Bruta
+T,63,Gramo Bruto
+T,64,Cien Kg. Brutos
+T,65,Diez Kg. Brutos
+T,66,Decenas
+T,67,10.000 Unid.
+T,68,100.000 Unid.
+T,69,Varias
+T,98,No Especifica
+T,99,Indefinido
+M,15,mm
+M,16,mm3
+M,17,km
+M,18,hl
+M,20,cm
+M,27,cm3
+M,30,dm3
+M,31,hm3
+M,32,km3
+M,33,microgramo
+M,34,nanogramo
+M,35,picogramo
+M,41,miligramos
+M,47,mililitros
+M,6,1000 KILOWATT HORA
+M,20,CENTIMETRO
+M,18,HECTOLITRO
+M,99,JGO.PQT.MAZO NAIPES
+M,99,JGO.PQT.MAZO NAIP
+M,61,KG.BRUTO
+M,1,KG.NETO
+M,58,KILOGRAMO BASE
+M,17,KILOMETRO
+M,99,MEGA U.INTER.ACT.HOR
+M,6,1000 KILOWATT HOR
+M,3,METRO CUADRADO
+M,4,METRO CUBICO
+M,41,MILIGRAMO
+M,47,MILILITRO
+M,15,MILIMETRo
+M,52,MUIACTHOR
+M,51,UIACTHOR
+M,53,KGBASE
+M,62,UIACTANT
